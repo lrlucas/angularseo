@@ -16,7 +16,7 @@ export class SeoService {
     config = {
       title: 'NG Seo',
       description: 'My Angular WebSite',
-      image: './assets/angular7.jpg',
+      image: 'assets/angular7.jpg',
       slug: '',
       host: '',
       ...config
