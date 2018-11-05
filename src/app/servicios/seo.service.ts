@@ -7,6 +7,8 @@ import { Router } from '@angular/router';
 })
 export class SeoService {
 
+  imagen = 'https://csform.com/wp-content/uploads/2018/09/Angular-7-Top-New-Features.jpg';
+
   constructor(@Inject(DOCUMENT) private document: any, private meta: Meta, public router: Router) {
     console.log('este es el dominio');
     console.log(this.document.location.hostname);
@@ -16,7 +18,7 @@ export class SeoService {
     config = {
       title: 'NG Seo',
       description: 'My Angular WebSite',
-      image: 'assets/angular7.jpg',
+      image: this.imagen,
       slug: '',
       host: '',
       ...config
