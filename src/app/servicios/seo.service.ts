@@ -18,7 +18,7 @@ export class SeoService {
       description: 'My Angular WebSite',
       image: './assets/angular7.jpg',
       slug: '',
-      host: ''
+      host: '',
       ...config
     };
 
